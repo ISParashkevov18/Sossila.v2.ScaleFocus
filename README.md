@@ -7,7 +7,7 @@
 1. [Project Team](#team)
 2. [Short Description](#desc)
 3. [Technologies Used](#technologies)
-4. [Our Goals](#goals)
+4. [Our Goals](#Goals)
 <a name="team"></a>
 <h1 style="text-align:center;font-size:10vw">1.Project Team</h1>
 
@@ -25,6 +25,6 @@ Our program is a game called Bletchley code breakers. It is a popular board game
 <p align="center">
   <img src="https://attachments.office.net/owa/VVVelizarov18%40codingburgas.bg/service.svc/s/GetAttachmentThumbnail?id=AQMkAGFkMmZjYTcwLTIwNDEtNGM3Yi05MDI4LTI3OTA3MTcxMzdjMgBGAAADM2LfOKyOJ0Cw1hpid1pNgQcA8XCyT%2Bx7P0qYTZGFkRHfXAAAAgEMAAAA8XCyT%2Bx7P0qYTZGFkRHfXAACHS2%2FQwAAAAESABAARTwFSIMkrkK6zGAIW%2FDb%2BA%3D%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjMwODE3OUNFNUY0QjUyRTc4QjJEQjg5NjZCQUY0RUNDMzcyN0FFRUUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJNSUY1emw5TFV1ZUxMYmlXYTY5T3pEY25ydTQifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMzcyN2I5YWFhMDhjNGMyNmI1MjkxMDAxMzc2ZTVlY2MiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEA1ZTZjZmQ0Yi0xMmQzLTRiYTQtOGVhOS0xOWRiMTk1YWJkYTQiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM5MDY2NjEzNTQ3NzkxNjhcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCJjMDU0MjRmNC00YWY0LTQ0MDEtODRjYy1lYTVmZTFkY2ZlYzhcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTI4OTY4MjMwOTAtMTY0NDczNjQ5LTM3Nzc1NTE3MDktMzEzMjQ1OVwifSIsIm5iZiI6MTYxMDQwMzU2NywiZXhwIjoxNjEwNDA0MTY3LCJpc3MiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDBANWU2Y2ZkNGItMTJkMy00YmE0LThlYTktMTlkYjE5NWFiZGE0IiwiYXVkIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2F0dGFjaG1lbnRzLm9mZmljZS5uZXRANWU2Y2ZkNGItMTJkMy00YmE0LThlYTktMTlkYjE5NWFiZGE0IiwiaGFwcCI6Im93YSJ9.Ugf-f-Oa6iU5Zu-GZCT68uW-9Cm15xq4fQTx775aLFQbDlzKwXHZKto0tYMLdeXvY1Cauh9apxArlbiRhmKAVFzeAzioPs2ua_BClLcKtgQTCVOUAccFmjMAXrrt8wJGJfppvgX6t1Ca0vWnHGphcEwRBhm5363E6BCjOITS8F_G07J1zqG7y5A0AaBIRfhxaAimsV4qvg7DlNvVQAMunVP9shwORpvNn6yIDl2PKDF9TrQqBDeycRNKcqf_hU6imY58Cy_Hh8Lo3CLrrIRxHdqLAU1jZHBJRKlQi7tKBs9u461qgKqVmGEqxYzi31gWdHl25xAgr-ocJhAVZBv2SQ&X-OWA-CANARY=lAYjjbjJ7ka_GtBOTHyNMQDnrfl-ttgYhDuvukNNZOLBve22KSwuQL3iXzqwZX4HjUWzzqB4d2Q.&owa=outlook.office.com&scriptVer=20210103002.04&animation=true" />
 </p>
-<a name="goals"></a>
+<a name="Goals"></a>
 <h1 style="text-align:center;font-size:10vw">4.Our Goals</h1>
 Our goals are to make a fun and enjoyable game that can be played by one or two people. Future foals include translating the menus in different languages, adding more levels and optimizing the program.
