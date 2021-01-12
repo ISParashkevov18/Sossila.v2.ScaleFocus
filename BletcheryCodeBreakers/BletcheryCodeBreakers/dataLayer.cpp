@@ -39,7 +39,7 @@ void generateNumWithDuplicates(int numbers[])   //The computer generates 4 numbe
 	}
 }
 
-bool checkInteger(string str)   //Checks if the function’s argument is an integer value or not.If yes, returns true, otherwise false
+bool checkInteger(string str)   //Checks if the functionâ€™s argument is an integer value or not.If yes, returns true, otherwise false
 {
 	for (int i = 0; i < str.length(); i++)
 	{
@@ -146,7 +146,9 @@ void compareNumbers(int numbers[], int userNumbers[], int  numberOfGuesses, int&
 			loses++;
 			numberOfGuesses = 0;
 			system("CLS");
-			cout << "You have no more guesses. Better luck next time! " << endl;
+			cout << "+-----------------------------------------------+" << endl;
+			cout << "|You have no more guesses. Better luck next time|" << endl;
+			cout << "+-----------------------------------------------+" << endl;
 			cout << " !-- GAME OVER --!" << endl;
 			GameOver();
 			break;
@@ -160,7 +162,9 @@ void compareNumbers(int numbers[], int userNumbers[], int  numberOfGuesses, int&
 	{
 		wins++;
 		system("CLS");
-		cout << "Congatulations! You guessed the secret coordinates!" << endl;
+		cout << "+--------------------------------------------------+" << endl;
+		cout << "|Congatulations! You guessed the secret coordinates|" << endl;
+		cout << "+--------------------------------------------------+" << endl;
 		GameOver();
 	}
 }
@@ -180,22 +184,27 @@ void setNumWithDuplicates(int numbers[])  //The user is asked to input
 		{
 			do {
 				system("CLS");
-				cout << "The value you entered was not an integer. Please enter a whole number : ";
+				cout << "+---------------------------------------------------------------------+" << endl;
+				cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+				cout << "+---------------------------------------------------------------------+" << endl;
 				cin >> arrayNumbers;
 				checkInteger(arrayNumbers);
 			} while (checkInteger(arrayNumbers) == false);
 		}
 		numbers[i] = stoi(arrayNumbers);
-		if (numbers[i] < 0 or numbers[i] > 7)
+		if (numbers[i] < 0 || numbers[i] > 7)
 		{
 
 			do {
 				system("CLS");
-				cout << "Your number must be between 0 and 7" << endl;
+				cout << "+-----------------------------------+" << endl;
+				cout << "|Your number must be between 0 and 7|" << endl;
+				cout << "+-----------------------------------+" << endl;
 				cin >> numbers[i];
-			} while (numbers[i] < 0 or numbers[i] > 7);
+			} while (numbers[i] < 0 || numbers[i] > 7);
 		}
 	}
+	system("CLS");
 }
 void setNumNoDuplicates(int numbers[])  //The user is asked to input 4 unique numbers.Then they are stored in an array
 {
@@ -211,30 +220,36 @@ void setNumNoDuplicates(int numbers[])  //The user is asked to input 4 unique nu
 		{
 			do {
 				system("CLS");
-				cout << "The value you entered was not an integer. Please enter a whole number : ";
+				cout << "+---------------------------------------------------------------------+" << endl;
+				cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+				cout << "+---------------------------------------------------------------------+" << endl;
 				cin >> arrayNumbers;
 				checkInteger(arrayNumbers);
 			} while (checkInteger(arrayNumbers) == false);
 		}
 		numbers[i] = stoi(arrayNumbers);
-		if (numbers[i] < 0 or numbers[i] > 7)
+		if (numbers[i] < 0 || numbers[i] > 7)
 		{
 
 			do {
 				system("CLS");
-				cout << "Your number must be between 0 and 7" << endl;
+				cout << "+-----------------------------------+" << endl;
+				cout << "|Your number must be between 0 and 7|" << endl;
+				cout << "+-----------------------------------+" << endl;
 				cin >> arrayNumbers;
 				if (checkInteger(arrayNumbers) == false)
 				{
 					do {
 						system("CLS");
-						cout << "The value you entered was not an integer. Please enter a whole number : ";
+						cout << "+---------------------------------------------------------------------+" << endl;
+						cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+						cout << "+---------------------------------------------------------------------+" << endl;
 						cin >> arrayNumbers;
 						checkInteger(arrayNumbers);
 					} while (checkInteger(arrayNumbers) == false);
 				}
 				numbers[i] = stoi(arrayNumbers);
-			} while (numbers[i] < 0 or numbers[i] > 7);
+			} while (numbers[i] < 0 || numbers[i] > 7);
 		}
 	}
 
@@ -242,7 +257,7 @@ void setNumNoDuplicates(int numbers[])  //The user is asked to input 4 unique nu
 	{
 		for (int j = 0; j < 4; j++)
 		{
-			if (i != j and numbers[i] == numbers[j])
+			if (i != j && numbers[i] == numbers[j])
 				duplicates++;
 		}
 	}
@@ -254,4 +269,5 @@ void setNumNoDuplicates(int numbers[])  //The user is asked to input 4 unique nu
 		cout << "+--------------------------------------------+" << endl << endl << endl;
 		setNumNoDuplicates(numbers);
 	}
+	system("CLS");
 }

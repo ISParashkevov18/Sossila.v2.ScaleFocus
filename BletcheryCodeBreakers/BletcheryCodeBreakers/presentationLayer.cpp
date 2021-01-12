@@ -25,7 +25,9 @@ void inputGuessNumbers(int userNumbers[])  //Gets 4 numbers as an input from the
 			if (outputCheck = true)     //checking if we already outputed that message, if we have the check should equal false
 			{
 				system("CLS");
-				cout << "The value you entered was not an integer. Please enter a whole number : ";
+				cout << "+---------------------------------------------------------------------+" << endl;
+				cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+				cout << "+---------------------------------------------------------------------+" << endl;
 				outputCheck = false;    // after outputing the message, we  immediately set the check to false so its not outputed twice
 			}
 			do {
@@ -42,7 +44,9 @@ void inputGuessNumbers(int userNumbers[])  //Gets 4 numbers as an input from the
 
 			do {
 				system("CLS");
-				cout << "Your number must be between 0 and 7" << endl;
+				cout << "+-----------------------------------+" << endl;
+				cout << "|Your number must be between 0 and 7|" << endl;
+				cout << "+-----------------------------------+" << endl;
 				cin >> userNumbers[i];
 			} while (userNumbers[i] < 0 || userNumbers[i] > 7);
 		}
@@ -106,7 +110,9 @@ int GameOver()  //Asks the user if he wants to continue the game.
 	{
 		do {
 			system("CLS");
-			cout << "The value you entered was not an integer. Please enter a whole number : ";
+			cout << "+---------------------------------------------------------------------+" << endl;
+			cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+			cout << "+---------------------------------------------------------------------+" << endl;
 			cin >> levelChoice;
 			checkInteger(levelChoice);
 		} while (checkInteger(levelChoice) == false);
@@ -121,7 +127,9 @@ int GameOver()  //Asks the user if he wants to continue the game.
 		break;
 	default:
 		system("CLS");
-		cout << "The number you chose was not valid!" << endl;
+		cout << "+----------------------------------+" << endl;
+		cout << "|The number you chose was not valid|" << endl;
+		cout << "+----------------------------------+" << endl;
 		GameOver();
 		break;
 	}
@@ -144,7 +152,9 @@ void levelMenu(int numbers[], int userNumbers[], int numberOfGuesses, int& wins,
 	{
 		do {
 			system("CLS");
-			cout << "The value you entered was not an integer. Please enter a whole number : ";
+			cout << "+---------------------------------------------------------------------+" << endl;
+			cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+			cout << "+---------------------------------------------------------------------+" << endl;
 			cin >> levelChoice;
 			checkInteger(levelChoice);
 		} while (checkInteger(levelChoice) == false);
@@ -164,7 +174,9 @@ void levelMenu(int numbers[], int userNumbers[], int numberOfGuesses, int& wins,
 		{
 			do {
 				system("CLS");
-				cout << "The value you entered was not an integer. Please enter a whole number : ";
+				cout << "+---------------------------------------------------------------------+" << endl;
+				cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+				cout << "+---------------------------------------------------------------------+" << endl;
 				cin >> DuplicateChoice;
 				checkInteger(DuplicateChoice);
 			} while (checkInteger(DuplicateChoice) == false);
@@ -181,7 +193,9 @@ void levelMenu(int numbers[], int userNumbers[], int numberOfGuesses, int& wins,
 			compareNumbers(numbers, userNumbers, numberOfGuesses, wins, loses);
 			break;
 		default:
-			cout << "The number you chose was not valid!" << endl;
+			cout << "+----------------------------------+" << endl;
+			cout << "|The number you chose was not valid|" << endl;
+			cout << "+----------------------------------+" << endl;
 			levelMenu(numbers, userNumbers, numberOfGuesses, wins, loses);
 			break;
 		}
@@ -199,7 +213,9 @@ void levelMenu(int numbers[], int userNumbers[], int numberOfGuesses, int& wins,
 		{
 			do {
 				system("CLS");
-				cout << "The value you entered was not an integer. Please enter a whole number : ";
+				cout << "+---------------------------------------------------------------------+" << endl;
+				cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+				cout << "+---------------------------------------------------------------------+" << endl;
 				cin >> DuplicateChoice;
 				checkInteger(DuplicateChoice);
 			} while (checkInteger(DuplicateChoice) == false);
@@ -245,7 +261,9 @@ void mainMenu(int numbers[], int userNumbers[], int numberOfGuesses, int& wins, 
 	{
 		do {
 			system("CLS");
-			cout << "The value you entered was not an integer. Please enter a whole number : ";
+			cout << "+---------------------------------------------------------------------+" << endl;
+			cout << "|The value you entered was not an integer. Please enter a whole number|" << endl;
+			cout << "+---------------------------------------------------------------------+" << endl;
 			cin >> startingMenu;
 			checkInteger(startingMenu);
 		} while (checkInteger(startingMenu) == false);

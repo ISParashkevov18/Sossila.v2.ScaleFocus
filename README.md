@@ -11,7 +11,7 @@
 <h1 style="text-align:center;font-size:10vw">1.Project Team</h1>
 
 - Viktor Velizarov (Back-end developer)
-- Atanas Vulchanov (Front-End Developer)
+- Atanas Valchanov (Front-End Developer)
 - Georgi Kunev (Documentation)
 - Stefan Ganchev (QA Engineer)
 - Ivan Parashkevov (SCRUM trainer)
