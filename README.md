@@ -19,7 +19,7 @@
 <h1 style="text-align:center;font-size:10vw">2.Short Description</h1>
 Our program is a game called Bletchley code breakers. It is a popular board game  available also online provided by different suppliers. During the World War II a group of mathematicians was placed in Bletchley, UK. Their goal was to crack the German coding machine Enigma. We decided to show our take on the popular game and we hope you enjoy it.
 <a name="technologies"></a>
-<h1 style="text-align:center;font-size:10vw">3.Technologies uses</h1>
+<h1 style="text-align:center;font-size:10vw">3.Technologies used</h1>
 
 <p align="center">
   <img src="pictures\technologies%20used.png" />
